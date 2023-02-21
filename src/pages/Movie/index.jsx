@@ -7,13 +7,13 @@ import {
   BsFillFileEarmarkTextFill,
 } from "react-icons/bs";
 
+import MovieCard from "../../components/MovieCard";
 import { GlobalContext } from "../../contexts/global";
 
 const moviesURL = import.meta.env.VITE_API_URL;
 const apiKey = import.meta.env.VITE_API_KEY;
 
 import { BudgetTitle, BudgetValue, Container, Info, Tagline } from "./style";
-import MovieCard from "../../components/MovieCard";
 
 const Movie = () => {
   const { movieDetails, getMovieDetails } = useContext(GlobalContext);

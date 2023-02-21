@@ -4,12 +4,17 @@ export const Container = styled.section`
   color: white;
   display: flex;
   flex-direction: column;
-  max-width: 600px;
+  max-width: 50vw;
   margin: 2rem auto;
 
   svg {
     font-size: 1.5rem;
     color: var(--color-yellow);
+  }
+
+  div:first-of-type { 
+    width: 30%;
+    align-self: center;
   }
 `;
 
@@ -33,6 +38,6 @@ export const BudgetTitle = styled.h3`
 export const BudgetValue = styled.p`
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: .4rem;
+  margin-top: .5rem;
 `;
