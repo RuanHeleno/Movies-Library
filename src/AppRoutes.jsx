@@ -10,13 +10,15 @@ const AppRoutes = () => {
   const Load = ({ children }) => {
     const { loading } = useContext(GlobalContext);
 
-    return loading ? (
+    /* return loading ? (
       <div id="loading">
         <ReactLoading type={"spin"} width={100} />
       </div>
     ) : (
       children
-    );
+    ); */
+
+    return children;
   };
 
   return (
