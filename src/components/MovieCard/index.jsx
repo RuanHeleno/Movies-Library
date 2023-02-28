@@ -2,7 +2,9 @@ import { LinkDetalhes } from "../../pages/Home/style";
 
 import { Card, Image, Infos, Star, Title } from "./style";
 
-const imageURL = import.meta.env.VITE_IMAGE_URL;
+/* const imageURL = import.meta.env.VITE_IMAGE_URL; */
+
+const imageURL = "https://image.tmdb.org/t/p/w500/";
 
 const MovieCard = (props) => {
   const { movie, showLink = true } = props;

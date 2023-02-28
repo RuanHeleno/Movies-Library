@@ -10,8 +10,11 @@ import {
 import MovieCard from "../../components/MovieCard";
 import { GlobalContext } from "../../contexts/global";
 
-const moviesURL = import.meta.env.VITE_API_URL;
-const apiKey = import.meta.env.VITE_API_KEY;
+/* const moviesURL = import.meta.env.VITE_API_URL;
+const apiKey = import.meta.env.VITE_API_KEY; */
+
+const moviesURL = "https://api.themoviedb.org/3/movie/";
+const apiKey = "api_key=f2abdee04a685a67f84c3a0c82b68b70";
 
 import { BudgetTitle, BudgetValue, Container, Info, Tagline } from "./style";
 
